@@ -1,0 +1,8 @@
+@use './abstracts/variables' as v;
+
+:root{
+    --primary-color: #{v.$primary-color};
+    --secondary-color: #{v.$secondary-color};
+    --light-color: #{v.$light-color};
+    --dark-color: #{v.$dark-color};
+}
